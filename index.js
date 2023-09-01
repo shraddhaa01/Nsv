@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 var port = process.env.PORT || 3700;
-//temp
+//after setup in jenkins
 // Set view of '/' end point
 app.set('views', __dirname + '/views');
 app.set('view engine', "jade");

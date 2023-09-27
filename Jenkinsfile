@@ -4,7 +4,7 @@ pipeline {
     stages {
        stage('Build') {
             steps {
-                echo "multiple repository example"
+                echo "multibranch pipeline example"
             }
         }
          

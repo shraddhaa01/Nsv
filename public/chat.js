@@ -1,6 +1,5 @@
 window.onload = function() {
 
-    //this comment is to check webhook
     var messages = [];
     var socket = io.connect('http://localhost:3700');
     var field = document.getElementById("field");
